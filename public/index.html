@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/public/grid.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- CUSTOM CSS-->
+<style>
+.btn-rounded{
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: rgba(217, 83, 78, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(217, 83, 78, 0.75);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.pink{
+    color: #e84393
+}
+
+.myBg {
+    background-image: url("/assets/images/bg.png");
+    width: auto;
+    height: 100vh;
+}
+
+.myShadowWhite{
+    $box-shadow: 0 .5rem 1rem rgba($black, .15);
+    $box-shadow-sm: 0 .125rem .25rem rgba($black, .075);
+    $box-shadow-lg: 0 1rem 3rem rgba($black, .175);
+    $box-shadow-inset: inset 0 1px 2px rgba($black, .075);       
+}
+
+.purple {
+    fill: #6c5ce7;
+    width: 80px;
+    height: 80px;
+}
+
+</style>
+
+</head>
+<body class="myBg">
+
+<nav class="navbar navbar-expand-sm navbar-light shadow-sm p-3 mb-5 bg-white rounde">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">Grid</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">How it works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Who we are</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">What we do</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Contact Us</a>
+          </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-secondary" type="button">Sign In</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid p-5 text-black text-center">
+<h1 class="display-1 fw-bolder">Combine <span class="pink">fine</span> images</h1>
+<h2 class="display-5 fw-bolder">To represent a product</h2>
+<p><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-arrow-down-circle purple" viewBox="0 0 16 16" width="28" height="28">
+    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+  </svg></p>
+</div>
+
+<div><img src="/assets/images/bento.png"></div>
+
+<div class="container mt-5">
+    <h1>Delivering good designs since 1954</h1>
+    <p>We’re the multi-purpose design kit solutions for businesses. We help you bridge gaps between your.</p> 
+    
+    <div class="row">
+        <div class="col-sm-3">
+        <h3>Swap the icon</h3>
+        <p>You can toggle to any icon within Instances and customize outlined stroke to more border or lighter.</p>
+      </div>
+      <div class="col-sm-3">
+        <h3>Detach if need</h3>
+        <p>Detaching the block instance will help you to control the indents and font styles more precisely.</p>
+      </div>
+      <div class="col-sm-3">
+        <h3>Toggle icons</h3>
+        <p>You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter.</p>
+      </div>
+      <div class="col-sm-3">
+        <h3>Replace a title</h3>        
+        <p>Detaching the block instance will help you to control the indents and font styles more precisely.</p>
+      </div>
+    </div>
+</div>
+
+<!--FOOTER-->
+<div class="container-fluid p-5 bg-secondary text-white text-center">
+    <p>Grid Company © 2024 All Rights Reserved.</p>
+</div>
+
+</body>
+</html>
+
+
